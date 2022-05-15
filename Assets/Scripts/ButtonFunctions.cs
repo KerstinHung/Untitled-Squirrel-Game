@@ -24,4 +24,12 @@ public class ButtonFunctions : MonoBehaviour
         float sfx_slider_value=PlayerPrefs.GetFloat("sfx_value", 0.5f);
         sounds.PlayOneShot(clickSound, sfx_slider_value);
     }
+    public void PointerEnter()
+    {
+        transform.localScale = new Vector2(0.6f, 0.6f);
+    }
+    public void PointerExit()
+    {
+        transform.localScale = new Vector2(0.4f, 0.4f);
+    }
 }

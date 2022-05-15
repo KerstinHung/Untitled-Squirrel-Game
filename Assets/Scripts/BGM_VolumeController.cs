@@ -9,7 +9,7 @@ public class BGM_VolumeController : MonoBehaviour
     public AudioSource bgm;
     void Start()
     {
-        bgm_slider.value=PlayerPrefs.GetFloat("bgm_value", 0.5f);
+        bgm_slider.value = PlayerPrefs.GetFloat("bgm_value", 0.5f);
         bgm.volume = bgm_slider.value;
         
     }
@@ -19,5 +19,4 @@ public class BGM_VolumeController : MonoBehaviour
         PlayerPrefs.SetFloat("bgm_value", bgm_slider.value);
         bgm.volume = bgm_slider.value;
     }
-
 }
