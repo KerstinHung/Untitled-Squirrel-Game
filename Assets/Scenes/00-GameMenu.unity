@@ -1156,10 +1156,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sfx_slider: {fileID: 1336494984}
-  sfx_files:
-  - {fileID: 1532570909}
-  - {fileID: 2106471275}
-  - {fileID: 1341731194}
+  sfx_files: {fileID: 0}
 --- !u!1 &559386201
 GameObject:
   m_ObjectHideFlags: 0

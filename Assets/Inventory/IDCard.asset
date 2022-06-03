@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae3c352b9d9d9724e9a699ad18ddc17b, type: 3}
+  m_Name: IDCard
+  m_EditorClassIdentifier: 
+  width: 1
+  height: 1
+  itemIcon: {fileID: 21300000, guid: e36236b74bfaffb43a62e3ad7466a614, type: 3}
+  itemName: ID card
+  itemID: 2
+  itemDesc: A key to the door
+  itemPower: 0
+  capacity: 1
+  itemType: 0

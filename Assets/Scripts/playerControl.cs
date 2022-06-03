@@ -45,6 +45,7 @@ public class playerControl : MonoBehaviour
         moveDirection.y -= gravity * Time.deltaTime;
         charController.Move(moveDirection * Time.deltaTime);
 
+        
     }
 
 

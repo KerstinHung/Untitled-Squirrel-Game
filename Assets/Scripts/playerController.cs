@@ -8,7 +8,7 @@ public class playerController : MonoBehaviour
     public GameObject player;
     public float moveSpeed = 5f;
     public float jumpSpeed = 8.0F; //起跳距離
-    public float gravity = -9.8F;  //重力
+    public float gravity = 20.0F;  //重力
     public CharacterController charController;
     public Transform groundCheck;
     public float groundDistance = 0.4f;
